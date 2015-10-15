@@ -78,10 +78,30 @@ console.log(arrayAlpha);
 
 // 14. Create and array of three arrays: colors, names, and schools. Each inner array should have three items.
 console.log('Question 14');
+var array3 = [
+                ['red', 'yellow', 'green'],
+                ['Jon', 'Jane', 'Doug'],
+                ['CU', 'CSU', 'DU']
+              ]
+
 // 15. Remove the last item from the second array.
+console.log('Question 15');
+array3[1].splice(2, 1);
+console.log(array3);
+
 // 16. Declare an object called "car" that describes the make, model, and color of your car.
+console.log('Question 16');
+var car = {
+  "make": "Ford",
+  "model": "Ranger",
+  "color": "Blue"
+}
 // 17. To the car object, add the key/value pair describing the year of your car.
+console.log('Question 17');
+car.year = 2001;
 // 18. The the car object, add a "repairs" key with the value being an array of the last three items you fixed on the car.
+console.log('Question 18');
+car.repairs = ['alternator', 'battery', 'clutch'];
 
 // Use the following object for questions 19-25:
 guests = {
@@ -114,8 +134,17 @@ guests = {
 }
 
 // 19. Find Joe's last name.
+console.log('Question 19');
+console.log(guests.joe.last_name);
+
 // 20. Log to the console the first genre each person listed.
+console.log('Question 20');
+console.log(guests.joe.preferences.favorite_genres[0], guests.sue.preferences.favorite_genres[0]);
+
 // 21. Find the first name of the person sitting next to Joe.
+console.log('Question 21');
+console.log(guests.joe.sitting_next_to);
+
 // 22. Find what meal Sue will be eating.
 // 23. Find the date of the first correspondence with Joe.
 // 24. find the desciption of the last correspondence with Sue.
