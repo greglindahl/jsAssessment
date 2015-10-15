@@ -166,11 +166,39 @@ var messageToGuests = "As of " + guests.joe.correspondence[1].date + " " + guest
 console.log(messageToGuests);
 
 // 26. Create an object with both Literal Notation and Constructor.
+console.log('Question 26');
+var o = {};
+o.constructor = Object;
+
 // 27. Output each item in the following Array to your console:
+console.log('Question 27');
 var bedroom = ['bed', 'nightstand', 'television', 'Channing Tatum']
+console.log(bedroom);
+
 // 28. Log to the console numbers 25 to 85, only in increments of 15.
+console.log('Question 28');
+var counter = 10;
+while (counter < 85) {
+  counter = counter + 15;
+  console.log(counter);
+}
+
 // 29. Write a while loop that logs "This loop is number: ___" to the console 5 times. Use your counter to fill in the blank.
+console.log('Question 29');
+loopNumber = 0;
+while (loopNumber < 5) {
+  loopNumber++;
+  console.log('This loop is number: ' + loopNumber);
+}
+
 // 30. Use a for loop to rewrite #29.
+console.log('Question 30');
+loopNumberTwo = 7;
+for (i = -1; i <= loopNumberTwo; i++) {
+  loopNumberTwo--;
+  console.log('This loop is number: ' + loopNumberTwo);
+}
+
 // 31. Prompt a user to pick either a number or a word. Create a script that alerts the user whether they chose a number or a word.
 // 32. Use Math.floor and Math.random to roll two six sided dice for two players. Determine which player wins with the higher roll.
 // 33. Define a function called "divideByThree". It should accept one parameter called "number".
