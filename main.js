@@ -1,3 +1,4 @@
+//Greg Lindahl
 // 1.  Log your last name to the console.
 // 2.  Declare a variable called "movie" and log it to the console.
 // 3.  Declare three variables with integer values. Add the first two, then multiply that sum by the third.
