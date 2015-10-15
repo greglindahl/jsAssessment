@@ -200,6 +200,20 @@ for (i = -1; i <= loopNumberTwo; i++) {
 }
 
 // 31. Prompt a user to pick either a number or a word. Create a script that alerts the user whether they chose a number or a word.
+console.log('Question 31');
+var userInput31 = prompt('Please enter a number OR a word.');
+
+function isNumber(obj) { 
+  if (!isNaN(parseFloat(obj) === true) {
+    alert('you entered a number');
+  } else {
+    alert('you entered a word');
+  }
+  return !isNaN(parseFloat(obj)) 
+}
+
+isNumber(userInput31);
+
 // 32. Use Math.floor and Math.random to roll two six sided dice for two players. Determine which player wins with the higher roll.
 // 33. Define a function called "divideByThree". It should accept one parameter called "number".
 //     The function should divide the number by three and output the answer.
