@@ -1,19 +1,83 @@
 //Greg Lindahl
 // 1.  Log your last name to the console.
+console.log('Question 1');
+console.log('Lindahl');
+
 // 2.  Declare a variable called "movie" and log it to the console.
+console.log('Question 2');
+var movie = 'Snatch';
+console.log('Lindahl');
+
 // 3.  Declare three variables with integer values. Add the first two, then multiply that sum by the third.
+console.log('Question 3');
+var intOne = 2;
+var intTwo = 3;
+var intThree = 4;
+var totalInt = (intOne + intTwo) * intThree;
+console.log(totalInt);
+
 // 4.  Declare two variable with string values. Declare a third varible that concatenates the first two.
+console.log('Question 4');
+var stringOne = 'your';
+var stringTwo = 'mom';
+var twoStrings = stringOne + ' ' + stringTwo;
+console.log(twoStrings);
+
 // 5.  Prompt a user to enter a number. Multiply that by 100.
+console.log('Question 5');
+var multOneHundred = prompt('Please enter a number.') * 100;
+console.log(multOneHundred);
+
 // 6.  Prompt a user to enter his/her name, favorite band, and the year they were born. Log the sentence:
 //     "My name is ______, and I'm ___ year old fan of ________."
+console.log('Question 6');
+var inputName = prompt('Enter your name.');
+var inputBand = prompt("What's your favorite band?");
+var inputBirthYear = prompt('What year were you born?');
+console.log("My name is " + inputName + ", and I'm " + inputBirthYear + " year old fan of " + inputBand + ".");
+
 // 7.  Create an alert that uses the response from a prompt.
+console.log('Question 7');
+var alertFromPrompt = prompt('What is your name');
+alert('Hello ' + alertFromPrompt);
+
 // 8.  Declare an array with six items. Do this two different ways.
+console.log('Question 8');
+var arrayOne = [1,2,3,4,5,6];
+var arrayTwo = ['1','2','3','4','5','6'];
+
 // 9.  Add two additional items to the beginning of the array.
+console.log('Question 9');
+var arrayOne = [1,2,3,4,5,6];
+arrayOne.unshift(-1, 0);
+console.log(arrayOne);
+
 // 10. Remove the last two items.
+console.log('Question 10');
+var arrayOne = [-1,0,1,2,3,4,5,6];
+arrayOne.splice(6, 2);
+console.log(arrayOne);
+
 // 11. Add one item between the 2nd and 3rd item.
+console.log('Question 11');
+var arrayOne = [-1,0,1,2,3,4];
+arrayOne.splice(3, 0, 1.5);
+console.log(arrayOne);
+
 // 12. Combine all of the elements of the array into a string.
+console.log('Question 12');
+var arrayOne = [-1,0,1,1.5,2,3,4];
+var joinedStr = arrayOne.join([separator = ',']);
+console.log(joinedStr);
+
 // 13. Arrange the items alphabetically.
+console.log('Question 13');
+var arrayAlpha = ['dog', 'cat', 'bird', 'snake', 'lion', 'tiger'];
+arrayAlpha.sort();
+console.log(arrayAlpha);
+
 // 14. Create and array of three arrays: colors, names, and schools. Each inner array should have three items.
+console.log('Question 14');
 // 15. Remove the last item from the second array.
 // 16. Declare an object called "car" that describes the make, model, and color of your car.
 // 17. To the car object, add the key/value pair describing the year of your car.
