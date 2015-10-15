@@ -146,12 +146,25 @@ console.log('Question 21');
 console.log(guests.joe.sitting_next_to);
 
 // 22. Find what meal Sue will be eating.
+console.log('Question 22');
+console.log(guests.sue.preferences.meal);
+
 // 23. Find the date of the first correspondence with Joe.
+console.log('Question 23');
+console.log(guests.joe.correspondence[0].date);
+
 // 24. find the desciption of the last correspondence with Sue.
+console.log('Question 24');
+console.log(guests.sue.correspondence[1].description);
+
 // 25. Create a string uses variables to read:
 //     "As of [date of Joe's last correspondence], [Joe's first name] [Joe's last correspondence description].
 //      He will be eating [Joe's meal choice] while listening to [Joe's first favorite genre] and [Joe's second favorite genre]
 //      and sitting next to [Sue's first name][Sue's last name]."
+console.log('Question 25');
+var messageToGuests = "As of " + guests.joe.correspondence[1].date + " " + guests.joe.first_name + " " + guests.joe.correspondence[1].description + ". He will be eating " + guests.joe.preferences.meal + " while listening to " + guests.joe.preferences.favorite_genres[0] + " and " + guests.joe.preferences.favorite_genres[1] + " and sitting next to " + guests.sue.first_name + " " + guests.sue.last_name + ".";
+console.log(messageToGuests);
+
 // 26. Create an object with both Literal Notation and Constructor.
 // 27. Output each item in the following Array to your console:
 var bedroom = ['bed', 'nightstand', 'television', 'Channing Tatum']
